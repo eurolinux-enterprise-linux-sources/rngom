@@ -1,6 +1,6 @@
 Name: rngom
 Version: 201103
-Release: 0.8.20120119svn%{?dist}
+Release: 0.7.20120119svn%{?dist}
 Summary: Java library for parsing RELAX NG grammars
 Group: Development/Libraries
 License: MIT
@@ -104,9 +104,6 @@ cp -rp target/site/apidocs/* %{buildroot}%{_javadocdir}/%{name}/.
 
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 201103-0.8.20120119svn
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 201103-0.7.20120119svn
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
